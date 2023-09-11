@@ -1,0 +1,36 @@
+{
+  "name": "svelte-sol-bun",
+  "description": "Solana sveltekit starter app utilizing Bun as package manager",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@fontsource/fira-mono": "^4.5.10",
+    "@neoconfetti/svelte": "^1.0.0",
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.20.4",
+    "@types/cookie": "^0.5.1",
+    "postcss": "^8.4.29",
+    "svelte": "^4.0.5",
+    "svelte-adapter-bun": "^0.5.0",
+    "svelte-check": "^3.4.3",
+    "tailwindcss": "^3.3.3",
+    "tslib": "^2.4.1",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.2"
+  },
+  "dependencies": {
+    "@solana/wallet-adapter-wallets": "^0.19.21",
+    "@solana/web3.js": "^1.78.4",
+    "@svelte-on-solana/wallet-adapter-anchor": "^1.0.16-alpha.0",
+    "@svelte-on-solana/wallet-adapter-core": "^1.0.11-alpha.0",
+    "@svelte-on-solana/wallet-adapter-ui": "^1.0.21-alpha.0",
+    "autoprefixer": "^10.4.15"
+  },
+  "type": "module"
+}
